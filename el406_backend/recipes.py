@@ -4,8 +4,9 @@ WARNING: every numeric parameter below (flow rates, vacuum times, buffer-line
 letters, offsets) is a PLACEHOLDER. It exists so the compiler and simulator have
 concrete, typed data to operate on and so `test_recipe_params_match_real_signatures`
 can prove each kwarg is accepted by the real backend. These values MUST be replaced
-by lab-commissioned values (Q0-Q2 in the design doc) before the PyLabRobot adapter
-is ever pointed at hardware. The `param names` are real; the `values` are not
+by lab-commissioned values before the PyLabRobot adapter is ever pointed at hardware.
+The qualification levels the lab commissions against (Q0-Q2) are defined by the lab and
+are not recorded in this repository. The `param names` are real; the `values` are not
 qualified.
 """
 
@@ -13,7 +14,7 @@ from __future__ import annotations
 
 from .models import ApprovedRecipe, EffectClass, PlrMethod, RecipeStep
 
-# Placeholder labware ids — replace with the lab's exact catalog numbers + geometry hash.
+# Placeholder labware ids -- replace with the lab's exact catalog numbers + geometry hash.
 IP1_PLATE = "corning-3903-white-96"
 CAMP_PLATE = "greiner-655098-white-96"
 

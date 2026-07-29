@@ -1,6 +1,6 @@
 """End-to-end dry run on the simulator. No hardware, no pylabrobot required.
 
-Run from the `stephen` directory:
+Run from the repository root (the directory holding `pyproject.toml`):
 
     python3 -m el406_backend.demo
 

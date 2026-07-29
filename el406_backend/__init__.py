@@ -1,4 +1,4 @@
-"""EL406 AI-native backend — starter implementation.
+"""EL406 AI-native backend -- starter implementation.
 
 Grounded in pylabrobot 0.2.1's ExperimentalBioTekEL406Backend. See README.md.
 """

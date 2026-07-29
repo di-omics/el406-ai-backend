@@ -28,7 +28,7 @@ class SimulatedEL406Adapter:
     `faults` maps a `RecipeStep.name` to a failure mode:
       * "lose_ack": the effect reaches the ledger, but the acknowledgement is lost,
         so we raise `EffectUnknownError`. This models a dropped USB ack after a real
-        dispense — the physical effect may or may not have happened, and it must not
+        dispense -- the physical effect may or may not have happened, and it must not
         be retried.
     """
 

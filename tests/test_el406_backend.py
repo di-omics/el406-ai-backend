@@ -1,4 +1,4 @@
-"""Tests for the EL406 backend starter. Run: python3 -m pytest -q  (from stephen/)."""
+"""Tests for the EL406 backend starter. Run: python3 -m pytest -q  (from the repo root)."""
 
 from __future__ import annotations
 
